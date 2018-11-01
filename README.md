@@ -18,6 +18,4 @@ information or a specific set of words.
 [!] I am not responcible with the data you get with this tool! [!]
 
 # Contact
-
-* Email: CrimsonTorso@gmail.com
 * Github: https://github.com/CrimsonTorso
