@@ -1,15 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
-import os
-import module
+import core, os, time
 
-responce = os.system("clear")
-print('[!] Coded By CrimsonTorso [!]\n')
-print('Welcome to dbZearcher')
-print('1 - Search')
-print('2 - Quit')
-numSelect = raw_input('Please input a number: ')
-if numSelect == '1':
-	module.num1()
-elif numSelect == '2':
-	module.num2()
+core.welcome_banner()
+core.author()
+user_input = raw_input("Please enter a search query: ")
+responce = os.system("grep -i " + user_input + " *")
